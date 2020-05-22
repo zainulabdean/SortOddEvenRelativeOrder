@@ -4,7 +4,7 @@ public class SortOddEvenRelativeOrder {
     // Java program to segregate odd and even numbers from list in a relative order.
 
     Node head;  // head of the list
-    class Node {
+    public class Node {
         int data;
         Node next;
         Node(int d)
@@ -14,7 +14,7 @@ public class SortOddEvenRelativeOrder {
         }
     }
 
-    public void segregateEvenOdd() {
+    public void segregateOddEven() {
 
         Node oddStart = null;
         Node oddEnd = null;
@@ -57,7 +57,7 @@ public class SortOddEvenRelativeOrder {
         oddEnd.next = null;
         head=evenStart;
     }
-    void push(int new_data) {
+    public void push(int new_data) {
         //  Allocate the Node &Put in the data
         Node new_node = new Node(new_data);
 
@@ -69,7 +69,7 @@ public class SortOddEvenRelativeOrder {
     }
 
     // Method to print a linked list
-    void printList() {
+    public void printList() {
         Node temp = head;
         while(temp != null)
         {
@@ -102,8 +102,7 @@ public class SortOddEvenRelativeOrder {
 
         System.out.println("Original List");
         list.printList();
-
-        list.segregateEvenOdd();
+        list.segregateOddEven();
 
         System.out.println("Modified  List");
         list.printList();
