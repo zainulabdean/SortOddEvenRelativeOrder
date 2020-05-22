@@ -89,6 +89,10 @@ public class SortOddEvenRelativeOrder {
         list.push(16);
         list.push(7);
         list.push(3);
+        list.push(5);
+        list.push(50);
+        list.push(13);
+        list.push(4);
         list.push(32);
         list.push(31);
         list.push(19);
