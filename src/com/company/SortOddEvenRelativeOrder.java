@@ -81,28 +81,28 @@ public class SortOddEvenRelativeOrder {
 
     /* Driver method to test above functions */
     public static void main(String args[]) {
-        SortOddEvenRelativeOrder llist = new SortOddEvenRelativeOrder();
+        SortOddEvenRelativeOrder list = new SortOddEvenRelativeOrder();
         // Taking a random numbers in to linked list, which have mix up of odd and even
         // numbers.To test the out put with respect to the the input relative sequence
-        llist.push(17);
-        llist.push(20);
-        llist.push(16);
-        llist.push(7);
-        llist.push(3);
-        llist.push(32);
-        llist.push(31);
-        llist.push(19);
-        llist.push(12);
-        llist.push(21);
-        llist.push(34);
+        list.push(17);
+        list.push(20);
+        list.push(16);
+        list.push(7);
+        list.push(3);
+        list.push(32);
+        list.push(31);
+        list.push(19);
+        list.push(12);
+        list.push(21);
+        list.push(34);
 
         System.out.println("Original List");
-        llist.printList();
+        list.printList();
 
-        llist.segregateEvenOdd();
+        list.segregateEvenOdd();
 
         System.out.println("Modified  List");
-        llist.printList();
+        list.printList();
     }
 
 }
